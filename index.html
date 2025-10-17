@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RVDOOR - דלתות ופתרונות מיגון</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            direction: rtl;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            background-color: #444;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 1.2em;
+            padding: 10px 20px;
+            display: inline-block;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #f0a500;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        section h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 2.5em;
+            color: #333;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+        .card {
+            background-color: #fff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+        }
+        .card img {
+            width: 100%;
+            display: block;
+        }
+        .card-content {
+            padding: 20px;
+            text-align: center;
+        }
+        .card-content h3 {
+            margin: 0 0 10px;
+            font-size: 1.2em;
+            color: #333;
+        }
+        .contact {
+            text-align: center;
+            font-size: 1.2em;
+            margin-top: 40px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        @media(max-width: 600px) {
+            header h1 {
+                font-size: 2em;
+            }
+            nav a {
+                margin: 0 10px;
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>RVDOOR - דלתות ופתרונות מיגון</h1>
+</header>
+
+<nav>
+    <a href="#doors">דלתות</a>
+    <a href="#locks">מנעולים</a>
+    <a href="#contact">צור קשר</a>
+</nav>
+
+<section id="doors">
+    <h2>דלתות כניסה מעוצבות</h2>
+    <div class="gallery">
+        <div class="card">
+            <img src="https://www.rav-bariach.co.il/wp-content/uploads/2021/11/door1.jpg" alt="דלת 1">
+            <div class="card-content">
+                <h3>דלת מודרנית עם ידית ארוכה</h3>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://www.rav-bariach.co.il/wp-content/uploads/2021/11/door2.jpg" alt="דלת 2">
+            <div class="card-content">
+                <h3>דלת עם חלון זכוכית מעוצב</h3>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://www.rav-bariach.co.il/wp-content/uploads/2021/11/door3.jpg" alt="דלת 3">
+            <div class="card-content">
+                <h3>דלת פלדה עם עיצוב מינימליסטי</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="locks">
+    <h2>מנעולים ופתרונות נעילה</h2>
+    <div class="gallery">
+        <div class="card">
+            <img src="https://www.locks.co.il/wp-content/uploads/2021/11/lock1.jpg" alt="מנעול 1">
+            <div class="card-content">
+                <h3>מנעול חכם עם שליטה מרחוק</h3>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://www.locks.co.il/wp-content/uploads/2021/11/lock2.jpg" alt="מנעול 2">
+            <div class="card-content">
+                <h3>מנעול רב-בריח עם טכנולוגיה מתקדמת</h3>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://www.locks.co.il/wp-content/uploads/2021/11/lock3.jpg" alt="מנעול 3">
+            <div class="card-content">
+                <h3>מנעול עם צילינדר מוגן פטנט</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>צור קשר</h2>
+    <div class="contact">
+        <p>📞 טלפון: 054-533-8587</p>
+        <p>📱 WhatsApp: <a href="https://wa.me/972545338587">לחץ כאן לשליחה</a></p>
+        <p>📍 עבודה בכל רחבי ישראל</p>
+    </div>
+</section>
+
+<footer>
+    &copy; 2025 RVDOOR. כל הזכויות שמורות.
+</footer>
+
+</body>
+</html>
