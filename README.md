@@ -1,4 +1,215 @@
-<!DOCTYPE html>
+[16.10, 19:04] Vladislav: body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  background-color: #fff;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+header {
+  background: #222;
+  color: #fff;
+  padding: 15px 0;
+}
+
+.logo {
+  margin: 0;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.hero {
+  background: url('https://via.placeholder.com/1600x600?text=RVDOOR') center/cover no-repeat;
+  color: #fff;
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background-color: #e63946;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background-color: #d62828;
+}
+
+.about, .catalog, .contact {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.product {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 300px;
+  background-color: #f9f9f9;
+}
+
+.product img {
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input, textarea, button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #e63946;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d62828;
+}
+
+footer {
+  text-align: center;
+  background: #222;
+  color: #fff;
+  padding: 15px 0;
+}
+[16.10, 19:04] Vladislav: body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  background-color: #fff;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+header {
+  background: #222;
+  color: #fff;
+  padding: 15px 0;
+}
+
+.logo {
+  margin: 0;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.hero {
+  background: url('https://via.placeholder.com/1600x600?text=RVDOOR') center/cover no-repeat;
+  color: #fff;
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background-color: #e63946;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background-color: #d62828;
+}
+
+.about, .catalog, .contact {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.product {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 300px;
+  background-color: #f9f9f9;
+}
+
+.product img {
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input, textarea, button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #e63946;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d62828;
+}
+
+footer {
+  text-align: center;
+  background: #222;
+  color: #fff;
+  padding: 15px 0;
+}<!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="UTF-8" />
